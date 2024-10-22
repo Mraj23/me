@@ -1,6 +1,8 @@
 ---
 title: Welcome to Quartz
 tags:
+  - Introduction
+  - aboutme
 ---
 
 This is a blank Quartz installation.
