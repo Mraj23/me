@@ -1,22 +1,7 @@
 ---
-title: Welcome to Quartz
+title: Hi, I'm Raj
 tags:
-  - Introduction
-  - aboutme
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+I'm currently a software engineer at AngelList and I live in New York City. I grew up in Antwerp, Belgium, and I moved to the U.S to go to college. 
 
-
-
-> [!asdsad] Title
-> Contents
-
----
-dsad
-
-
-| asdsadasdsadsadsddsad                                               |                                      |
-| ------------------------------------------------------------------- | ------------------------------------ |
-| asdsadsadsadsadsadsadsadsadsadsadasdasdasdasdasdasd<br>sadasdasdasd | ![[Pasted image 20241201221712.png]] |
