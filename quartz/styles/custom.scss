@@ -1,3 +1,53 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// Hide the explorer title button and keep it always expanded
+.explorer {
+  // Hide the desktop title button
+  button.desktop-explorer {
+    display: none !important;
+  }
+  
+  // Ensure explorer is always expanded (prevent collapsing)
+  flex: 0 1 auto !important;
+  
+  // Prevent the collapsed state from hiding content
+  &.collapsed {
+    flex: 0 1 auto !important;
+    
+    .explorer-content {
+      display: block !important;
+    }
+  }
+  
+  // Ensure content is always visible
+  .explorer-content {
+    display: block !important;
+    margin-top: 0;
+    
+    & ul {
+      & li {
+        margin-bottom: 0.5rem;
+        
+        & > a {
+          padding: 0.25rem 0;
+        }
+      }
+      
+      // Spacing for folder items
+      & li:has(> .folder-container) {
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+}
+
+// Make PDF rendering larger
+iframe.pdf {
+  aspect-ratio: auto !important;
+  min-height: 80vh !important;
+  height: 100vh !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
